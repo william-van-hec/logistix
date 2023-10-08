@@ -1,0 +1,75 @@
+.card {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 6px;
+	margin: 5px 5px;
+	flex-basis: 300px;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.card img {
+	width: 200px;
+	border-radius: 5px;
+}
+
+.card h3 {
+	flex-grow: 1;
+	padding-left: 15px;
+	font-size: 24px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#OD {
+	background-image: linear-gradient(-225deg, rgb(0,0,0,0.4), rgb(0,0,0,0.4) 50%),url("../../images/enveloppe.jpg");
+	color: white;
+ 	background-position: center;
+ 	background-size: cover;
+ 	opacity: 0.8;
+ 	transition: 0.5s;
+ 	margin-top: 0px;
+}
+
+
+#CS {
+	background-image: linear-gradient(-225deg, rgb(0,0,0,0.4), rgb(0,0,0,0.4) 50%),url("../../images/containers.jpg");
+	color: white;
+ 	background-position: center;
+ 	background-size: cover;
+ 	opacity: 0.8;
+ 	transition: 0.5s;
+ 	margin-top: 0px;
+}
+
+#B2C {
+	background-image: linear-gradient(-225deg, rgb(0,0,0,0.4), rgb(0,0,0,0.4) 50%),url("../../images/parcel.jpg");
+	color: white;
+ 	background-position: center;
+ 	background-size: cover;
+ 	opacity: 0.8;
+ 	transition: 0.5s;
+}
+
+#ALG {
+	background-image: linear-gradient(-225deg, rgb(0,0,0,0.4), rgb(0,0,0,0.4) 50%),url("../../images/art.jpg");
+	color: white;
+ 	background-position: center;
+ 	background-size: cover;
+ 	opacity: 0.8;
+ 	transition: 0.5s;
+}
+
+#OD:hover, #CS:hover, #B2C:hover, #ALG:hover {
+	opacity: 1;
+}
+
+
+
+

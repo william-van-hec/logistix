@@ -1,0 +1,33 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.container-margin {
+	margin: 0px auto;
+	padding: 20px 200px;
+}
+
+#stars {
+	background-image: url(../../images/stars.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+@media (max-width: 960px) {
+.container {
+	width: 7000px;
+	}
+}
+
+@media (max-width: 720px) {
+.container {
+	width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+.container {
+	width: 300px;
+	}
+}
